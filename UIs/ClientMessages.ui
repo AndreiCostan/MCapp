@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MCapp - Email SMS Window</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>MCapp_icon.png</normaloff>MCapp_icon.png</iconset>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color: qconicalgradient(cx:1, cy:1, angle:0, stop:0.136364 rgba(55, 80, 0, 200), stop:1 rgba(168, 255, 181, 200));}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 26pt &quot;Arial Black&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(89, 89, 89, 60);</string>
+    </property>
+    <property name="text">
+     <string>MCapp - Trimiteri Email / SMS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>780</width>
+      <height>530</height>
+     </rect>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="sms_tab">
+     <attribute name="title">
+      <string>Mesaj SMS</string>
+     </attribute>
+     <widget class="QLabel" name="nume_client">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Nume Client: </string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="sms_body">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>730</width>
+        <height>230</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Text SMS</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="telephone_text">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>80</y>
+        <width>561</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Numar Telefon</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nume_client_var">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>10</y>
+        <width>621</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Client</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sms_telephone_number_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="toolTipDuration">
+       <number>-1</number>
+      </property>
+      <property name="whatsThis">
+       <string/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Numar Telefon:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="sms_message_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>160</y>
+        <width>161</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Mesaj SMS:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add_sms_sent_button">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>450</y>
+        <width>300</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Adauga DA in baza de date</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="email_tab">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="title">
+      <string>Mesaj E-mail</string>
+     </attribute>
+     <widget class="QPlainTextEdit" name="email_body">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>730</width>
+        <height>230</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Text E-mail</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nume_client_var_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>10</y>
+        <width>621</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Client</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="email_client">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>40</y>
+        <width>631</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>E-mail client</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="nume_client_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>10</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Nume Client: </string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="email_contact">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>80</y>
+        <width>631</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>E-mail contact</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="subject_text">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>120</y>
+        <width>631</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="plainText">
+       <string>Expirare</string>
+      </property>
+      <property name="textInteractionFlags">
+       <set>Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="email_to_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Catre:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="email_bcc_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>80</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>BCC:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="email_subject_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Subiect:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="email_message_button">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Mesaj E-mail:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="add_email_sent_button">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>450</y>
+        <width>300</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <pointsize>12</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
+      <property name="toolTip">
+       <string>Click pentru Copiere</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+font: 12pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 15px;
+border: 2px solid rgba(61, 61, 61, 190);
+}
+
+QPushButton:hover {
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>Adauga DA in baza de date</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>sms_telephone_number_button</tabstop>
+  <tabstop>telephone_text</tabstop>
+  <tabstop>sms_message_button</tabstop>
+  <tabstop>sms_body</tabstop>
+  <tabstop>add_sms_sent_button</tabstop>
+  <tabstop>email_to_button</tabstop>
+  <tabstop>email_client</tabstop>
+  <tabstop>email_bcc_button</tabstop>
+  <tabstop>email_contact</tabstop>
+  <tabstop>email_subject_button</tabstop>
+  <tabstop>subject_text</tabstop>
+  <tabstop>email_message_button</tabstop>
+  <tabstop>email_body</tabstop>
+  <tabstop>add_email_sent_button</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

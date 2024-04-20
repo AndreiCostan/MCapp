@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>MCapp_icon.ico</normaloff>MCapp_icon.ico</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color: qconicalgradient(cx:1, cy:1, angle:0, stop:0.136364 rgba(55, 80, 0, 200), stop:1 rgba(168, 255, 181, 200));}</string>
+   </property>
+   <widget class="QLabel" name="welcome_label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>120</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 17pt &quot;Arial Black&quot;;
+color: rgb(0, 0, 0);
+background-color: rgba(89, 89, 89, 60);</string>
+    </property>
+    <property name="text">
+     <string>MCapp</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_email_sms_custom_button">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>160</y>
+      <width>151</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: 14pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 20px;
+border: 2px solid rgba(61, 61, 61, 190);
+background-color: rgb(170, 200, 170);
+}
+
+QPushButton:hover {
+background-color: rgb(170, 215, 170);
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Trimiteri
+Email / SMS
+Selectie
+Manuala</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_add_in_database_button">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>460</y>
+      <width>401</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: 18pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 20px;
+border: 2px solid rgba(61, 61, 61, 190);
+background-color: rgb(170, 200, 170);
+}
+
+QPushButton:hover {
+background-color: rgb(170, 215, 170);
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Adaugare in Baza de Date</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_weeks_T1">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>310</y>
+      <width>130</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>Numar Saptamani
+pana la expirare</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="combo_weeks_T1">
+    <property name="geometry">
+     <rect>
+      <x>685</x>
+      <y>360</y>
+      <width>40</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="currentText">
+     <string/>
+    </property>
+    <property name="currentIndex">
+     <number>-1</number>
+    </property>
+    <property name="maxVisibleItems">
+     <number>6</number>
+    </property>
+    <property name="maxCount">
+     <number>12</number>
+    </property>
+   </widget>
+   <widget class="Line" name="line_1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>390</y>
+      <width>800</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>800</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_5">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>119</y>
+      <width>20</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>119</y>
+      <width>20</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>119</y>
+      <width>20</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_email_sms_5weeks_button">
+    <property name="geometry">
+     <rect>
+      <x>435</x>
+      <y>160</y>
+      <width>151</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: 14pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 20px;
+border: 2px solid rgba(61, 61, 61, 190);
+background-color: rgb(170, 200, 170);
+}
+
+QPushButton:hover {
+background-color: rgb(170, 215, 170);
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Trimiteri
+Email / SMS
+5 Saptamani</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_email_sms_3weeks_button">
+    <property name="geometry">
+     <rect>
+      <x>235</x>
+      <y>160</y>
+      <width>151</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: 14pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 20px;
+border: 2px solid rgba(61, 61, 61, 190);
+background-color: rgb(170, 200, 170);
+}
+
+QPushButton:hover {
+background-color: rgb(170, 215, 170);
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Trimiteri
+Email / SMS
+3 Saptamani</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_telephone_list_2weeks">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>151</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: 14pt &quot;Arial Black&quot;;
+color: rgb(54, 54, 54);
+border-radius: 20px;
+border: 2px solid rgba(61, 61, 61, 190);
+background-color: rgb(170, 200, 170);
+}
+
+QPushButton:hover {
+background-color: rgb(170, 215, 170);
+border: 2px solid rgba(61, 61, 61, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Lista
+Telefoane
+2 Saptamani</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>to_add_in_database_button</tabstop>
+  <tabstop>to_telephone_list_2weeks</tabstop>
+  <tabstop>to_email_sms_3weeks_button</tabstop>
+  <tabstop>to_email_sms_5weeks_button</tabstop>
+  <tabstop>to_email_sms_custom_button</tabstop>
+  <tabstop>combo_weeks_T1</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

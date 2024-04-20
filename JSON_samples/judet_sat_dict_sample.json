@@ -1,0 +1,315 @@
+{
+"...Alege un Judet...": [
+"...Alege un Judet..."
+],
+"Bucuresti": [
+"Sector 1",
+"Sector 2",
+"Sector 3",
+"Sector 4",
+"Sector 5",
+"Sector 6"
+],
+"Ilfov": [
+"Catelu",
+"Cernica",
+"Chiajna",
+"Chitila",
+"Ciofliceni",
+"Ciolpani",
+"Ciorogarla",
+"Clinceni"
+],
+"Alba": [
+"Aiud",
+"Aiudul De Sus",
+"Alba Iulia",
+"Albac",
+"Alecus"
+],
+"Arad": [
+"Andrei Saguna",
+"Apateu",
+"Arad",
+"Araneag",
+"Archis",
+"Avram Iancu",
+"Bacau De Mijloc"
+],
+"Arges": [
+"Pietroasa",
+"Pietrosani",
+"Piscani",
+"Pitesti",
+"Pitigaia",
+"Pitoi"
+],
+"Bacau": [
+"Arini",
+"Asau",
+"Bacau",
+"Bacioiu",
+"Baclesti"
+],
+"Bihor": [
+"Olcea",
+"Olosig",
+"Oradea",
+"Ortiteag",
+"Orvisele"
+],
+"Bistrita-Nasaud": [
+"Bistrita",
+"Bistrita Bargaului",
+"Blajenii De Jos",
+"Blajenii De Sus",
+"Borleasa"
+],
+"Botosani": [
+"Borzesti",
+"Boscoteni",
+"Botosani",
+"Bozieni",
+"Braesti"
+],
+"Braila": [
+"Bordei Verde",
+"Bradeanca",
+"Braila",
+"Bratesu Vechi",
+"Bumbacari",
+"Caineni-Bai"
+],
+"Brasov": [
+"Bran",
+"Brasov",
+"Breaza",
+"Bucium",
+"Budila"
+],
+"Buzau": [
+"Buduile",
+"Bustea",
+"Buzau",
+"C.A. Rosetti",
+"Caldarasti",
+"Caldarusa"
+],
+"Calarasi": [
+"Budesti",
+"Buzoeni",
+"Calarasi",
+"Calarasii Vechi",
+"Calareti"
+],
+"Caras-Severin": [
+"Ravensca",
+"Remetea-Poganici",
+"Resita",
+"Resita Mica",
+"Rugi"
+],
+"Cluj": [
+"Ciurila",
+"Clapa",
+"Cluj-Napoca",
+"Coasta",
+"Codor"
+],
+"Constanta": [
+"Cogealac",
+"Comana",
+"Conacu",
+"Constanta",
+"Corbu",
+"Coroana"
+],
+"Covasna": [
+"Saramas",
+"Scradoasa",
+"Sfantu Gheorghe",
+"Sita Buzaului",
+"Surcea",
+"Talisoara"
+],
+"Dambovita": [
+"Targoviste",
+"Tartasesti",
+"Tatarani",
+"Teis",
+"Telesti",
+"Tetcoiu",
+"Titu"
+],
+"Dolj": [
+"Cotofenii Din Dos",
+"Cotofenii Din Fata",
+"Cotu",
+"Covei",
+"Craiova",
+"Criva"
+],
+"Galati": [
+"Furcenii Noi",
+"Furcenii Vechi",
+"Galati",
+"Ganesti",
+"Gara Berheci"
+],
+"Giurgiu": [
+"Ghionea",
+"Ghizdaru",
+"Giurgiu",
+"Gogosari",
+"Goleasca"
+],
+"Gorj": [
+"Targu Carbunesti",
+"Targu Jiu",
+"Targu Logresti",
+"Tehomir",
+"Telesti",
+"Tetila"
+],
+"Harghita": [
+"Meresti",
+"Miercurea Ciuc",
+"Mihaileni",
+"Minele Lueta",
+"Misentea"
+],
+"Hunedoara": [
+"Homorod",
+"Hondol",
+"Hunedoara",
+"Ilia",
+"Iscroni"
+],
+"Ialomita": [
+"Slatioarele",
+"Slobozia",
+"Slobozia Noua",
+"Smirna",
+"Stejaru"
+],
+"Iasi": [
+"Horpaz",
+"Humosu",
+"Iacobeni",
+"Iasi",
+"Iazu Nou",
+"Iazu Vechi"
+],
+"Maramures": [
+"Asuaju De Sus",
+"Baba",
+"Baia Mare",
+"Baia Sprie",
+"Baile Borsa",
+"Baita"
+],
+"Mehedinti": [
+"Dragotesti",
+"Drincea",
+"Drobeta-Turnu Severin",
+"Dubova",
+"Dudasu"
+],
+"Mures": [
+"Tampa",
+"Targu Mures",
+"Tarnaveni",
+"Tau",
+"Taureni"
+],
+"Neamt": [
+"Petru Voda",
+"Piatra Soimului",
+"Piatra-Neamt",
+"Pietrosu",
+"Pildesti"
+],
+"Olt": [
+"Sinesti",
+"Slatina",
+"Slatioara",
+"Slaveni",
+"Soparlita"
+],
+"Prahova": [
+"Pleasa",
+"Ploiesti",
+"Ploiestiori",
+"Plopeni",
+"Plopu"
+],
+"Salaj": [
+"Zalau",
+"Zalha",
+"Zalnoc",
+"Zauan",
+"Zauan-Bai",
+"Zimbor"
+],
+"Satu Mare": [
+"Satmarel",
+"Satu Mare",
+"Satu Mic",
+"Sauca",
+"Scarisoara Noua"
+],
+"Sibiu": [
+"Selimbar",
+"Sibiel",
+"Sibiu",
+"Slimnic",
+"Smig"
+],
+"Suceava": [
+"Stramtura",
+"Stroiesti",
+"Stulpicani",
+"Suceava",
+"Sucevita"
+],
+"Teleorman": [
+"Albeni",
+"Albesti",
+"Alexandria",
+"Antonesti",
+"Babaita"
+],
+"Timis": [
+"Teremia Mare",
+"Teremia Mica",
+"Tes",
+"Timisoara",
+"Tipari"
+],
+"Tulcea": [
+"Tudor Vladimirescu",
+"Tulcea",
+"Turcoaia",
+"Turda"
+],
+"Valcea": [
+"Racu",
+"Radacinesti",
+"Ramesti",
+"Ramnicu Valcea",
+"Rapa Caramizii"
+],
+"Vaslui": [
+"Valeni",
+"Vaslui",
+"Verdes",
+"Vetrisoaia",
+"Viisoara"
+],
+"Vrancea": [
+"Adjud",
+"Fitionesti",
+"Focsani",
+"Frecatei"
+]
+}
